@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block head_title %}Clinic Master DashBoard{% endblock %}
+
+{% block content %}
+<ul>
+    {% for x in myallergies %}
+      <li>{{ x.allergyname }}</li>
+    {% endfor %}
+  </ul>
+{% endblock %}

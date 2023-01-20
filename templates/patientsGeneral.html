@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% block head_title %}{% endblock %}
+
+{% block content %}
+<br/>
+<div class="container">
+    <div class="row">
+        <div class="col">
+ <form>
+    <div class="form-row">
+      <div class="form-group col-md-3">
+        <label for="text">PatientNo</label>
+        <input type="text" class="form-control" id="text" placeholder="PatientNo">
+      </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-3">
+            <label for="text">ReferenceNo</label>
+            <input type="text" class="form-control" id="text" placeholder="ReferenceNo">
+          </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-3">
+            <label for="text">SurName</label>
+            <input type="text" class="form-control" id="text" placeholder="SurName">
+          </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-3">
+            <label for="text">FirstName</label>
+            <input type="text" class="form-control" id="text" placeholder="FirstName">
+          </div>
+    </div>
+    
+    <div class="form-row">
+        <div class="form-group col-md-3">
+            <label for="text">OtherName</label>
+            <input type="text" class="form-control" id="text" placeholder="OtherName">
+          </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-3">
+            <label for="text">Date of Birth</label>
+            <input type="datetime-local" class="form-control" id="text" placeholder="DateofBirth">
+          </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-3">
+            <label for="text">Age</label>
+            <input type="text" class="form-control" id="text" placeholder="Age">
+          </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-3">
+            <label for="text">Gender</label>
+            <select id="text" class="form-control">
+                <option selected>Choose...</option>
+                <option>Male</option>
+                <option>Female</option>
+              </select>
+          </div>
+    </div>
+    
+    
+  </form>
+  </div>
+  </div>
+  </div>
+{% endblock %}

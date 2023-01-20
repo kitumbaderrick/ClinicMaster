@@ -1,0 +1,2 @@
+docker build --tag clinicmaster .
+docker run --publish 8000:8000 clinicmaster
